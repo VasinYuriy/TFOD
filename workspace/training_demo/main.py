@@ -1,5 +1,9 @@
-import detection
+import sys
 import cv2
+
+sys.path.append("../scripts/validation")
+import detection
+
 
 if __name__ == '__main__':
     PATH_TO_LABELS = 'annotations/label_map.pbtxt'
